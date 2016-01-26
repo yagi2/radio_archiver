@@ -1,0 +1,8 @@
+*.mp3
+*.flv
+*.mp4
+data/
+logs
+logs_error
+*cron_config*
+.DS_Store
