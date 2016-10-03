@@ -1,12 +1,7 @@
-- title: セガネットワークスアワー_村川梨衣・大坪由佳のムラツボ研究所
+- title: メゾン_ド_イーコエ_もしも声優がいっぱい住んでいるマンションがあったら_高野麻里佳_あなたの隣家のまりんか
   wday: 1
-  time: '02:00'
+  time: '19:00'
   length: 30
-  movie: false
-- title: アニアモ!
-  wday: 1
-  time: '16:00'
-  length: 60
   movie: true
 - title: AandG_NEXT_BREAKS_黒沢ともよのFIVE_STARS
   wday: 1
@@ -28,14 +23,19 @@
   time: '22:00'
   length: 60
   movie: true
-- title: 西明日香のデリケートゾーン!
+- title: 鷲崎健のヨルナイト_ヨルナイト
   wday: 2
   time: '0:00'
-  length: 30
+  length: 60
   movie: true
-- title: りめいく!
+- title: 西明日香のデリケートゾーン!
   wday: 2
-  time: '1:30'
+  time: '1:00'
+  length: 30
+  movie: false
+- title: TrySailのTRYangle_harmony
+  wday: 2
+  time: '19:30'
   length: 30
   movie: false
 - title: 井上麻里奈下田麻美のIT革命!
@@ -48,29 +48,34 @@
   time: '21:30'
   length: 30
   movie: false
+- title: 村川梨衣の_a_りえしょんぷりーず
+  wday: 2
+  time: '23:00'
+  length: 30
+  movie: false
 - title: 久保ユリカが1人しゃべりなんて胃が痛い。
   wday: 2
   time: '23:30'
   length: 30
   movie: true
-- title: 楠田亜衣奈・渡部優衣の気分上々
-  wday: 3
+- title: 鷲崎健のヨルナイト_ヨルナイト
+  wday:	3
   time: '0:00'
-  length: 30
-  movie: false
-- title: TrySailのTRYangle_harmony
-  wday: 3
-  time: '0:30'
-  length: 30
-  movie: false
+  length: 60
+  movie: true
 - title: 洲崎西
   wday: 3
   time: '1:00'
   length: 30
   movie: false
-- title: ら・ら・ら_なかむランド
+- title: TRUEのおもてなしラジオ_鶴松屋へようこそ
+  wday:	3
+  time: '2:00'
+  length: 30
+  movie: true
+- title: 楠田亜衣奈・渡部優衣の気分上々
   wday: 3
-  time: '1:30'
+  time: '19:30'
   length: 30
   movie: false
 - title: AandG_NEXT_BREAKS_田中美海のFIVE_STARS
@@ -78,12 +83,22 @@
   time: '20:00'
   length: 60
   movie: true
+- title: 鷲崎健のヨルナイト_ヨルナイト
+  wday:	4
+  time: '0:00'
+  length: 60
+  movie: true
 - title: 津田のラジオ_っだー!!
   wday: 4
   time: '1:00'
   length: 30
   movie: false
-- title: みーなのマジカルプラネット
+- title: メゾン_ド_イーコエ_もしも声優がいっぱい住んでいるマンションがあったら_Pyxisの夜空の下_de_Meeting
+  wday:	4
+  time: '19:00'
+  length: 30
+  movie: true
+- title: 三上枝織の「みかっしょ!」
   wday: 4
   time: '19:30'
   length: 30
@@ -93,9 +108,14 @@
   time: '20:00'
   length: 60
   movie: true
-- title: 村川梨衣の_a_りえしょんぷりーず
-  wday: 5
+- title: 鷲崎健のヨルナイト_ヨルナイト
+  wday:	5
   time: '0:00'
+  length: 60
+  movie: true
+- title: 伊藤美来_まるっとまとめ！
+  wday:	5
+  time: '1:00'
   length: 30
   movie: true
 - title: れいandゆいの文化放送ホームランラジオ!
@@ -125,10 +145,10 @@
   movie: false
 - title: 佳村はるかのひみつきち
   wday: 0
-  time: '2:30'
+  time: '2:00'
   length: 30
   movie: true
-- title: ラジオどっとあい_本渡楓のめいっぷるんっ!
+- title: ラジオどっとあい_夏川椎菜のナンスの角に小指ぶつけて痛い
   wday: 0
   time: '3:00'
   length: 30
@@ -138,12 +158,17 @@
   time: '17:30'
   length: 30
   movie: false
+- title: セハガールのハードなSEGA情報RADIO「セハラジ」
+  wday: 0
+  time: '19:00'
+  length: 60
+  movie: true
 - title: 瑠璃子and葵のAO進化論
   wday: 0
   time: '20:30'
   length: 30
   movie: true
-- title: はみらじ!!
+- title: ゆのみのYou_kNow_Me!!!
   wday: 0
   time: '21:00'
   length: 30
