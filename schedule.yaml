@@ -33,6 +33,11 @@
   time: '1:00'
   length: 30
   movie: false
+- title: 相坂くんのリトマス紙
+  wday: 2
+  time: '16:00'
+  length: 30
+  movie: true
 - title: TrySailのTRYangle_harmony
   wday: 2
   time: '19:30'
