@@ -87,11 +87,9 @@ schedule_yaml.each do |program|
     mp4_path = "#{save_dir}/mp4/#{title}.mp4"
     mp4_encode_command = "#{ffmpeg} -i #{flv_path} -vcodec libx264 -vpre libx264-default #{mp4_path} > /dev/null 2>&1"
     system mp4_encode_command
-
-    # if recorded program doesn't have movie, delete flv file.
-    #if !program['movie'] then
-    #  system "rm -rf #{flv_path}"
-    #end
+    
+    # delete flv file
+    system "rm -rf #{flv_path}"
   end
 
 end
