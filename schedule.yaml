@@ -8,7 +8,7 @@
   time: '20:00'
   length: 60
   movie: true
-- title: 内田さんと浅倉さん
+- title: 井上麻里奈下田麻美のIT革命!
   wday: 1
   time: '21:00'
   length: 30
@@ -43,22 +43,17 @@
   time: '19:30'
   length: 30
   movie: false
-- title: 井上麻里奈下田麻美のIT革命!
+- title: Fate_Grand_Order_カルデア_ラジオ局
   wday: 2
   time: '21:00'
-  length: 30
-  movie: false
-- title: 早見沙織のふりーすたいる
-  wday: 2
-  time: '21:30'
-  length: 30
+  length: 60
   movie: false
 - title: 村川梨衣の_a_りえしょんぷりーず
   wday: 2
   time: '23:00'
   length: 30
   movie: false
-- title: 久保ユリカが1人しゃべりなんて胃が痛い。
+- title: 佐倉としたい大西
   wday: 2
   time: '23:30'
   length: 30
@@ -87,6 +82,11 @@
   wday: 3
   time: '20:00'
   length: 60
+  movie: true
+- titme: 内田雄馬_君の話を焼かせて
+  wday: 3
+  time: '21:00'
+  length: 30
   movie: true
 - title: 鷲崎健のヨルナイト_ヨルナイト
   wday:	4
@@ -123,6 +123,16 @@
   time: '1:00'
   length: 30
   movie: true
+- title: 久保ユリカが1人喋りなんて胃が痛い。
+  wday: 5
+  time: '1:30'
+  length: 30
+  movie: true
+- title: 内田さんと浅倉さん
+  wday: 5
+  time: '21:30'
+  length: 30
+  movie: false
 - title: れいandゆいの文化放送ホームランラジオ!
   wday: 5
   time: '22:00'
@@ -133,6 +143,11 @@
   time: '18:30'
   length: 30
   movie: true
+- title: 早見沙織のふりーすたいる
+  wday: 6
+  time: '19:30'
+  length: 30
+  movie: false
 - title: 内田真礼とおはなししません?
   wday: 6
   time: '20:30'
