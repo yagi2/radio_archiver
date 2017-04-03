@@ -1,8 +1,3 @@
-- title: メゾン_ド_イーコエ_もしも声優がいっぱい住んでいるマンションがあったら_高野麻里佳_あなたの隣家のまりんか
-  wday: 1
-  time: '19:00'
-  length: 30
-  movie: true
 - title: AandG_NEXT_BREAKS_黒沢ともよのFIVE_STARS
   wday: 1
   time: '20:00'
@@ -168,7 +163,7 @@
   time: '2:00'
   length: 30
   movie: true
-- title: ラジオどっとあい_夏川椎菜のナンスの角に小指ぶつけて痛い
+- title: ラジオどっとあい_七瀬彩夏のなないろポケット
   wday: 0
   time: '3:00'
   length: 30
@@ -186,10 +181,5 @@
 - title: 瑠璃子and葵のAO進化論
   wday: 0
   time: '20:30'
-  length: 30
-  movie: true
-- title: ゆのみのYou_kNow_Me!!!
-  wday: 0
-  time: '21:00'
   length: 30
   movie: true
