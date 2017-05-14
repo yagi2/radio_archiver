@@ -3,7 +3,7 @@
   time: '20:00'
   length: 60
   movie: true
-- title: 井上麻里奈下田麻美のIT革命!
+- title: 井上麻里奈下田麻美のIT革命！
   wday: 1
   time: '21:00'
   length: 30
@@ -23,7 +23,7 @@
   time: '0:00'
   length: 60
   movie: true
-- title: 西明日香のデリケートゾーン!
+- title: 西明日香のデリケートゾーン！
   wday: 2
   time: '1:00'
   length: 30
@@ -88,7 +88,7 @@
   time: '0:00'
   length: 60
   movie: true
-- title: 津田のラジオ_っだー!!
+- title: 津田のラジオ_っだー！！
   wday: 4
   time: '1:00'
   length: 30
@@ -98,7 +98,7 @@
   time: '19:00'
   length: 30
   movie: true
-- title: 三上枝織の「みかっしょ!」
+- title: 三上枝織の「みかっしょ！」
   wday: 4
   time: '19:30'
   length: 30
@@ -118,7 +118,7 @@
   time: '1:00'
   length: 30
   movie: true
-- title: 久保ユリカが1人喋りなんて胃が痛い。
+- title: 久保ユリカが1人しゃべりなんて胃が痛い。
   wday: 5
   time: '1:30'
   length: 30
@@ -128,12 +128,12 @@
   time: '21:30'
   length: 30
   movie: false
-- title: れいandゆいの文化放送ホームランラジオ!
+- title: れいandゆいの文化放送ホームランラジオ！
   wday: 5
   time: '22:00'
   length: 60
   movie: true
-- title: 高森奈津美のP!インラジオ
+- title: 高森奈津美のP！インラジオ
   wday: 6
   time: '18:30'
   length: 30
@@ -143,7 +143,7 @@
   time: '19:30'
   length: 30
   movie: false
-- title: 内田真礼とおはなししません?
+- title: 内田真礼とおはなししません？
   wday: 6
   time: '20:30'
   length: 30
