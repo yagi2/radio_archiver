@@ -13,7 +13,10 @@ agqr_stream_url = 'rtmp://fms-base1.mitene.ad.jp/agqr/aandg22'
 
 current = '/home/yagi2/Dropbox/agqr'
 
+tmp_dir = '/home/yagi2/flvtmp'
 save_dir = "#{current}/data"
+
+Dir.mkdir(tmp_dir) if !File.exist?(tmp_dir)
 Dir.mkdir(save_dir) if !File.exist?(save_dir)
 
 schedule = "#{current}/schedule.yaml"
@@ -64,20 +67,20 @@ schedule_yaml.each do |program|
 
   if is_appropriate_wday && is_appropriate_time
     title = (program['title'].to_s + '_' + today.strftime('%Y%m%d')).gsub(' ','')
-    flv_path = "#{save_dir}/flv/#{title}.flv"
+    flv_path = "#{tmp_dir}/flv/#{title}.flv"
 
     # record stream
     rec_command = "#{rtmpdump} -r #{agqr_stream_url} --live -B #{length} -o #{flv_path} >/dev/null 2>&1"
     system rec_command
 
     # encode flv -> m4a
-    m4a_path = "#{save_dir}/mp3/#{title}.m4a"
-    m4a_encode_command = "#{ffmpeg} -y -i #{flv_path} -vn -acodec copy #{m4a_path} >/dev/null 2>&1"
+    m4a_path = "#{tmp_dir}/mp3/#{title}.m4a"
+    m4a_encode_command = "#{ffmpeg} -y -i #{flv_path} -threads 5 -vn -acodec copy #{m4a_path} >/dev/null 2>&1"
     system m4a_encode_command
 
     # encode m4a -> mp3
     mp3_path = "#{save_dir}/mp3/#{title}.mp3"
-    mp3_encode_command = "#{ffmpeg} -i #{m4a_path} #{mp3_path} >/dev/null 2>&1"
+    mp3_encode_command = "#{ffmpeg} -i #{m4a_path} -threads 5 #{mp3_path} >/dev/null 2>&1"
     system mp3_encode_command
 
     # delete m4a
@@ -85,11 +88,11 @@ schedule_yaml.each do |program|
 
     # encode flv -> mp4
     mp4_path = "#{save_dir}/mp4/#{title}.mp4"
-    mp4_encode_command = "#{ffmpeg} -i #{flv_path} -vcodec libx264 -vpre libx264-default #{mp4_path} > /dev/null 2>&1"
+    mp4_encode_command = "#{ffmpeg} -i #{flv_path} -threads 5 -vcodec libx264 -vpre libx264-default #{mp4_path} > /dev/null 2>&1"
     system mp4_encode_command
     
     # delete flv file
     system "rm -rf #{flv_path}"
   end
-
 end
+
