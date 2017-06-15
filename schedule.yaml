@@ -28,6 +28,11 @@
   time: '1:00'
   length: 30
   movie: false
+- title: 本渡楓と天津向の「本渡上陸作戦」
+  wday: 2
+  time: '2:00'
+  length: 30
+  movie: true
 - title: 相坂くんのリトマス紙
   wday: 2
   time: '16:00'
