@@ -93,11 +93,6 @@
   time: '0:00'
   length: 60
   movie: true
-- title: 津田のラジオ_っだー！！
-  wday: 4
-  time: '1:00'
-  length: 30
-  movie: false
 - title: メゾン_ド_イーコエ_もしも声優がいっぱい住んでいるマンションがあったら_Pyxisの夜空の下_de_Meeting
   wday:	4
   time: '19:00'
