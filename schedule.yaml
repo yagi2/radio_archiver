@@ -8,7 +8,7 @@
   time: '21:00'
   length: 30
   movie: false
-- title: 東山奈央のドリーム_シアター
+- title: 東山奈央のラジオ_at_リビング
   wday: 1
   time: '21:30'
   length: 30
@@ -28,6 +28,11 @@
   time: '1:00'
   length: 30
   movie: false
+- title: 西田望見・奥野香耶のず〜ぱらだいす
+  wday: 2
+  time: '1:30'
+  length: 30
+  movie: true
 - title: 本渡楓と天津向の「本渡上陸作戦」
   wday: 2
   time: '2:00'
@@ -98,11 +103,6 @@
   time: '19:00'
   length: 30
   movie: true
-- title: 三上枝織の「みかっしょ！」
-  wday: 4
-  time: '19:30'
-  length: 30
-  movie: true
 - title: AandG_NEXT_BREAKS_松田利冴のFIVE_STARS
   wday: 4
   time: '20:00'
@@ -153,17 +153,12 @@
   time: '1:00'
   length: 30
   movie: false
-- title: 大久保・原_青春学園_Girls_High
+- title: 佳村はるかのひみつきち
   wday: 0
   time: '1:30'
   length: 30
-  movie: false
-- title: 佳村はるかのひみつきち
-  wday: 0
-  time: '2:00'
-  length: 30
   movie: true
-- title: ラジオどっとあい_七瀬彩夏のなないろポケット
+- title: ラジオどっとあい_石見舞菜香のまなかのナカマ
   wday: 0
   time: '3:00'
   length: 30
@@ -177,9 +172,4 @@
   wday: 0
   time: '19:00'
   length: 60
-  movie: true
-- title: 瑠璃子and葵のAO進化論
-  wday: 0
-  time: '20:30'
-  length: 30
   movie: true
