@@ -1,13 +1,13 @@
+- title: 温泉むすめ放送部
+  wday: 1
+  time: '19:00'
+  length: 30
+  movie: true
 - title: AandG_NEXT_BREAKS_黒沢ともよのFIVE_STARS
   wday: 1
   time: '20:00'
   length: 60
   movie: true
-- title: 井上麻里奈下田麻美のIT革命！
-  wday: 1
-  time: '21:00'
-  length: 30
-  movie: false
 - title: 東山奈央のラジオ_at_リビング
   wday: 1
   time: '21:30'
@@ -48,10 +48,10 @@
   time: '19:30'
   length: 30
   movie: false
-- title: Fate_Grand_Order_カルデア_ラジオ局
+- title: 井上麻里奈下田麻美のIT革命！
   wday: 2
-  time: '21:00'
-  length: 60
+  time: '21:30'
+  length: 30
   movie: false
 - title: 村川梨衣の_a_りえしょんぷりーず
   wday: 2
@@ -73,11 +73,11 @@
   time: '1:00'
   length: 30
   movie: false
-- title: TRUEのおもてなしラジオ_鶴松屋へようこそ
-  wday:	3
-  time: '2:00'
+- title: 大橋彩香のAnyBeat！
+  wday: 3
+  time: '19:00'
   length: 30
-  movie: true
+  movie: false
 - title: 楠田亜衣奈・渡部優衣の気分上々
   wday: 3
   time: '19:30'
@@ -98,7 +98,12 @@
   time: '0:00'
   length: 60
   movie: true
-- title: メゾン_ド_イーコエ_もしも声優がいっぱい住んでいるマンションがあったら_Pyxisの夜空の下_de_Meeting
+- title: 武内駿輔のGooooood_JOB！
+  wday: 4
+  time: '1:30'
+  length: 30
+  movie: false
+- title: Pyxisの夜空の下_de_Meeting
   wday:	4
   time: '19:00'
   length: 30
@@ -113,27 +118,22 @@
   time: '0:00'
   length: 60
   movie: true
-- title: 伊藤美来_まるっとまとめ！
-  wday:	5
-  time: '1:00'
-  length: 30
-  movie: true
 - title: 久保ユリカが1人しゃべりなんて胃が痛い。
   wday: 5
   time: '1:30'
   length: 30
   movie: true
-- title: 内田さんと浅倉さん
+- title: Fate_Grand_Order_カルデア_ラジオ局
   wday: 5
   time: '21:30'
-  length: 30
-  movie: false
+  length: 60
+  movie: true
 - title: れいandゆいの文化放送ホームランラジオ！
   wday: 5
   time: '22:00'
   length: 60
   movie: true
-- title: 高森奈津美のP！インラジオ
+- title: 高森奈津美のおちゃっちゃしよ？
   wday: 6
   time: '18:30'
   length: 30
@@ -158,7 +158,7 @@
   time: '1:30'
   length: 30
   movie: true
-- title: ラジオどっとあい_石見舞菜香のまなかのナカマ
+- title: ラジオどっとあい_藤原夏海のどったんばったんラジオ！！
   wday: 0
   time: '3:00'
   length: 30
