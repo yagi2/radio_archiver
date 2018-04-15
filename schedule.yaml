@@ -123,6 +123,11 @@
   time: '1:30'
   length: 30
   movie: true
+- title: 能登麻美子・おはなしNOTE
+  wday: 5
+  time: '2:30'
+  length: 30
+  movie: true
 - title: Fate_Grand_Order_カルデア_ラジオ局
   wday: 5
   time: '21:30'
@@ -161,6 +166,11 @@
 - title: ラジオどっとあい_藤原夏海のどったんばったんラジオ！！
   wday: 0
   time: '3:00'
+  length: 30
+  movie: true
+- title: 本多真梨子・戸田めぐみの ほんとだ！
+  wday: 0
+  time: '15:00'
   length: 30
   movie: true
 - title: めっちゃすきやねん
